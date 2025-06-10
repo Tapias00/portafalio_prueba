@@ -1,5 +1,5 @@
 Portafolio Web - Daniel Tapias Villamil, clan Testa. Cc 1001360170, danieltv1403@gmail.com
-Este es un portafolio personal para desarrolladores web frontend, diseñado para mostrar proyectos profesionales de manera efectiva y atractiva.
+Este es un portafolio personal para desarrolladores, diseñado para mostrar proyectos profesionales de manera efectiva y atractiva.
 
 Características
 - Diseño Responsivo: Adaptable a todos los dispositivos (móviles, tablets, escritorio)
