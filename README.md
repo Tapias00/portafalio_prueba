@@ -25,7 +25,7 @@ portafolio_web
 1.index.html          
 2.styles.css          
 3.img        
-Cómo Usar
+Cómo Usar:
 
 Clona este repositorio o descarga los archivos
 
