@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio | Daniel Tapias</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    
+    <header class="header"> 
+        <div class="container">
+            <a href="inicio" class="logo">Tapias.riwi</a>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-button">
+                <span class="hamburger"></span>
+            </label>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                    <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Hola, soy <span>DANIEL TAPIAS</span></h1>
+                    <h2>Desarrollador Web Frontend</h2>
+                    <p>Creo experiencias digitales atractivas, funcionales y accesibles para los usuarios.</p>
+                    <div class="hero-buttons">
+                        <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+                        <a href="#contacto" class="btn btn-secondary">Contactarme</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper"> <img src="img/Foto.jpeg"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="projects">
+            <div class="container">
+                <h2 class="section-title">Escanea y conoce algunos de mis proyectos</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="img/libreria.png">
+                        </div>
+                        <div class="project-info">
+                            <h3>Inventario</h3>
+                            <p>Programa que permite manejar el inventario de una libreria.</p>
+                            <div class="project-tech">
+                                <span>PYTHON</span>                            
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="img/Qr_portafolio.png" alt="Proyecto 2">
+                        </div>
+                        <div class="project-info">
+                            <h3>portafolio personal</h3>
+                            <p>Portafolio donde se muestra mi informacion personal.</p>
+                            <div class="project-tech">                                                                                                
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="img/Qr_eventos.png" alt="Proyecto 3">
+                        </div>
+                        <div class="project-info">
+                            <h3>Feria de eventos</h3>
+                            <p>Diseño responsive con animaciones y efectos interactivos.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>                                
+                            </div>                            
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contacto</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>¡Trabajemos juntos!</h3>
+                        <p>Si tienes un proyecto en mente o quieres saber más sobre mi trabajo, no dudes en contactarme.</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>danieltv1403@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>3113938589</span>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://www.github.com/Tapias00" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://www.facebook.com/share/16RWLJEmds/?mibextid=wwXIfr" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/tapias00?igsh=Z2pldW9qdmNrdnJw&utm_source=qr" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form" action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 DANIEL TAPIAS. RIWI.</p>            
+        </div>
+    </footer>
+</body>
+</html>
