@@ -21,6 +21,7 @@ Características
 Estructura del Proyecto
 
 portafolio_web
+
 1.index.html          
 2.styles.css          
 3.img        
